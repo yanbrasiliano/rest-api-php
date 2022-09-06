@@ -2,9 +2,9 @@
 
 namespace App\Services;
 
-use App\Interfaces\CrudInterface as Crud;
+use App\Interfaces\CrudInterface as CRUD;
 
-class UserService implements Crud
+class UserService implements CRUD
 {
 	public static function getById(int $id)
 	{
