@@ -3,6 +3,7 @@
 namespace App\Services;
 
 use App\Interfaces\CrudInterface as CRUD;
+use PDOException;
 
 class UserService implements CRUD
 {
