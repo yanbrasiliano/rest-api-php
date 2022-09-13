@@ -4,13 +4,13 @@ namespace App\Interfaces;
 
 interface CrudInterface
 {
-	public static function getById(int $id);
+	public function getById(int $id);
 
-	public static function getAll(int $id);
+	public function getAll(int $id);
 
-	// public function post();
+	public function post($data);
 
-	// public function update();
+	public function update(int $id);
 
-	// public function delete();
+	public function delete(int $id);
 }
